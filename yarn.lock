@@ -2,6 +2,77 @@
 # yarn lockfile v1
 
 
+"@fluxerjs/builders@3.0.0":
+  version "3.0.0"
+  resolved "https://registry.yarnpkg.com/@fluxerjs/builders/-/builders-3.0.0.tgz#3dc9d4e78bd4c5ad3b706ff63be47a933680fcb6"
+  integrity sha512-UIRI3J9ydf7JXsbMMmREiZu3M2NTLVYnyP3g0MpLbOyftwBtr7B03tMKK+FetzwPQOFwvZgmG72hgOg08AQ83g==
+  dependencies:
+    "@fluxerjs/types" "3.0.0"
+    "@fluxerjs/util" "3.0.0"
+
+"@fluxerjs/collection@3.0.0":
+  version "3.0.0"
+  resolved "https://registry.yarnpkg.com/@fluxerjs/collection/-/collection-3.0.0.tgz#1874d248152f9d31abcedbc190883c1c33b4abec"
+  integrity sha512-IUdngO5ymv89iDnXTz+E+U8lmNH5DMOOmZ9StBCjFAQ8wAvXLo9fceN2xjlLlACeNgw+sueFSoJV6x3h1Zs2Ug==
+
+"@fluxerjs/core@^3.3.0":
+  version "3.3.0"
+  resolved "https://registry.yarnpkg.com/@fluxerjs/core/-/core-3.3.0.tgz#ca379a181044913cb3eded747e549055d30e49aa"
+  integrity sha512-A+MGadnTz6mQp5fV3RvwA8ndgWmIR4vc7j+pyeTJKN1eDEKYcA9/VTHTXKnHzo6r1MrVCdkE24dIaK3O8hoxRA==
+  dependencies:
+    "@fluxerjs/builders" "3.0.0"
+    "@fluxerjs/collection" "3.0.0"
+    "@fluxerjs/rest" "3.1.0"
+    "@fluxerjs/types" "3.3.0"
+    "@fluxerjs/util" "3.1.0"
+    "@fluxerjs/ws" "3.1.0"
+
+"@fluxerjs/rest@3.1.0":
+  version "3.1.0"
+  resolved "https://registry.yarnpkg.com/@fluxerjs/rest/-/rest-3.1.0.tgz#66f508164d7839b7c40541cadcfaf342596de422"
+  integrity sha512-JHnrHLwuhoEze/F3ZwYf7quS8tJAyRi8GwHc3xB4jnc1GZdK/9ZPbNkQVpXdl4CbiaO2bmlvfboiyHviZIWc0w==
+  dependencies:
+    "@fluxerjs/types" "3.1.0"
+    undici "^7.29.0"
+
+"@fluxerjs/types@3.0.0":
+  version "3.0.0"
+  resolved "https://registry.yarnpkg.com/@fluxerjs/types/-/types-3.0.0.tgz#6d08bf9e5210dd357fdb7c53088e89b29941a7ac"
+  integrity sha512-VfCtBExMq5bZ+WC8E2oc96tfj6XRKePhRKjPJtcIc1AW+V6/+d3w/C9fx9HEnQs9xm33xvyah7cu9zp0jOx8qA==
+
+"@fluxerjs/types@3.1.0":
+  version "3.1.0"
+  resolved "https://registry.yarnpkg.com/@fluxerjs/types/-/types-3.1.0.tgz#caa9e5dc2c8496408a0ff315de88e493734bcc45"
+  integrity sha512-Irtg8g7NhxvO5IAdJ3KdLq91K6thcTc2A8YeSgM0I61ESsYfvNuNdxMS/Y/y+xGjyfXIVpEEPkhfkEHaIojgIA==
+
+"@fluxerjs/types@3.3.0":
+  version "3.3.0"
+  resolved "https://registry.yarnpkg.com/@fluxerjs/types/-/types-3.3.0.tgz#0f3327705dadccbf132924ab5de18e591f9749cd"
+  integrity sha512-vzMVoxvhJr+sf04L2aFcM3C+lmjFWD9yITKqpZP9PIthwKOFSaK5eHsiUhzbt0pKCk2lkRmAQ4MBcwTeU+7TMw==
+
+"@fluxerjs/util@3.0.0":
+  version "3.0.0"
+  resolved "https://registry.yarnpkg.com/@fluxerjs/util/-/util-3.0.0.tgz#dcd59809c161c7c6a83edc54f9e0004cb18618b5"
+  integrity sha512-CMFRYdjQC26ZoXckgWcDVshZuxrU9wu42H/prv9cciZfmR9RQTSelVKq5TM1XQeYchrpxoL9EPxQMv3moSsbvA==
+  dependencies:
+    "@fluxerjs/types" "3.0.0"
+
+"@fluxerjs/util@3.1.0":
+  version "3.1.0"
+  resolved "https://registry.yarnpkg.com/@fluxerjs/util/-/util-3.1.0.tgz#715c902b6e15daf14ea83a19f125dd1a4f574a77"
+  integrity sha512-NCFf4igTpDeRAgW7/8yxEDFfqmy16xlfvBQfysSAE2jEkUcM0s1G9nP8rsIhTYb4bQ+dTvHh9Rv/eWKgOYyI/w==
+  dependencies:
+    "@fluxerjs/types" "3.1.0"
+
+"@fluxerjs/ws@3.1.0":
+  version "3.1.0"
+  resolved "https://registry.yarnpkg.com/@fluxerjs/ws/-/ws-3.1.0.tgz#707bab5cee03c80a89967aa62ce77ee4973d6746"
+  integrity sha512-CQWs6zKo6a+SkOOk/KtMHWRKa38cVNrjLfihzBwb3eR7zUIv4wXnKWxw03X8e1kp/C4DMAAElQX+OQFU/K+xNg==
+  dependencies:
+    "@fluxerjs/types" "3.1.0"
+    "@fluxerjs/util" "3.1.0"
+    ws "^8.21.0"
+
 "@oxc-project/types@=0.156.0":
   version "0.156.0"
   resolved "https://registry.yarnpkg.com/@oxc-project/types/-/types-0.156.0.tgz#00e35b1ead490d81b4c7fe1dbfe35fc55e89c5e6"
@@ -495,10 +566,20 @@ unconfig-core@^7.5.0:
     "@quansync/fs" "^1.0.0"
     quansync "^1.0.0"
 
+undici@^7.29.0:
+  version "7.30.2"
+  resolved "https://registry.yarnpkg.com/undici/-/undici-7.30.2.tgz#26c6acb0ffe838f823511f8cb79a8d530652135e"
+  integrity sha512-mLyPQnHwUxaM/rideoK/+KL8DaAJLRl4aBCfmX444aCSLnIaomqPLtNRe2jdCYcsk5wZzXrDIQC8ZeYNRAYyIA==
+
 verkit@^0.3.0:
   version "0.3.2"
   resolved "https://registry.yarnpkg.com/verkit/-/verkit-0.3.2.tgz#0511ea63310551b62a20c010aa820350c5c350c6"
   integrity sha512-zj/ob3UsvJGN0whEAKFp53REA5X66hvffVqoCtVQAakJKnKlH+/PcOfMoFwIG/o4rElqLv/ycAFlx8ZlXUorCg==
+
+ws@^8.21.0:
+  version "8.22.1"
+  resolved "https://registry.yarnpkg.com/ws/-/ws-8.22.1.tgz#60d427870e8272ddb10c7fc5cdf00a70eaec369e"
+  integrity sha512-oyL6OPYme/CmiFvNuGzeoxCJ4nOrZE2O1FwM9MWM1AsGri6nLXB2pg+lNA8aLeXMSav0J6eIVS1j6vUPzUtK9g==
 
 yuku-ast@^0.8.0, yuku-ast@^0.8.7:
   version "0.8.7"
