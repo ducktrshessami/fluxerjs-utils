@@ -1,2 +1,2 @@
-# ts-lib-template
-Typescript library template
+# fluxerjs-utils
+Basic fluxerjs utils

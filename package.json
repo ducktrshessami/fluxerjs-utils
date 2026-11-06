@@ -1,11 +1,11 @@
 {
-  "name": "ts-lib-template",
+  "name": "fluxerjs-utils",
   "version": "0.1.0",
-  "description": "Typescript library template",
+  "description": "Basic fluxerjs utils",
   "type": "module",
   "main": "dist/index.mjs",
   "types": "dist/index.d.mts",
-  "repository": "git@github.com:ducktrshessami/ts-lib-template.git",
+  "repository": "git@github.com:ducktrshessami/fluxerjs-utils.git",
   "author": "ducktrshessami",
   "license": "MIT",
   "scripts": {
@@ -17,7 +17,9 @@
     "require": "./dist/index.cjs",
     "import": "./dist/index.mjs"
   },
-  "dependencies": {},
+  "peerDependencies": {
+    "@fluxerjs/core": "^3.3.0"
+  },
   "devDependencies": {
     "tsdown": "0.22.14",
     "typescript": "^7.0.2"
