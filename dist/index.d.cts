@@ -4,5 +4,10 @@ type GuildTextBasedChannel = Extract<TextBasedChannel, {
   guildId: any;
 }>;
 declare function isCommunicationDisabled(member: GuildMember): boolean;
-export { GuildTextBasedChannel, isCommunicationDisabled, version };
+interface Manager<T = unknown> {
+  fetch(id: string, ...args: any[]): Promise<T>;
+  get(id: string): T | undefined;
+}
+declare function getOrFetch<M extends Manager>(manager: M, id: string): Promise<NonNullable<ReturnType<M["get"]>>>;
+export { GuildTextBasedChannel, getOrFetch, isCommunicationDisabled, version };
 //# sourceMappingURL=index.d.cts.map
